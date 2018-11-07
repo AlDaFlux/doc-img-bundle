@@ -22,6 +22,9 @@ class AldafluxDocImgExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
+        $container->setParameter( 'aldaflux_doc_img.web_dir', $config[ 'web_dir' ] );
+
+                
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
     }

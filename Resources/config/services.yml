@@ -1,4 +1,5 @@
 services:
-#    aldaflux_testa_rosa.example:
-#        class: Aldaflux\DocImgBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    HtmlToMht:
+        class: Aldaflux\DocImgBundle\Service\HtmlToMht
+        arguments: ["@service_container"]
+ 

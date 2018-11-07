@@ -1,1 +1,14 @@
-Hello World!
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            <div id="welcome">
+                <h1><span>AldDaFlux Doc Img </h1>
+                    <a class='btn btn-primary' href='{{path("aldaflux_doc_img_doc")}}'>DOC</a>
+                    <a class='btn btn-primary' href='{{path("aldaflux_doc_img_preview")}}'>Preview</a>
+            </div>
+ 
+        </div>
+    </div>
+{% endblock %}
