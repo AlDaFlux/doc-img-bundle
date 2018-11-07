@@ -5,7 +5,7 @@ Insert into config.yml
   aldaflux_doc_img:
       web_dir: "%kernel.root_dir%/../web"
  ~~~~
-in tour controller : 
+in your controller : 
 ~~~~
   $view_html = $this->renderView('AldafluxDocImgBundle:Default:example.html.twig');
   $view_mht=$this->get('HtmlToMht')->GenereHtmlToMht($view_html);
