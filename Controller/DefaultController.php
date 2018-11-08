@@ -52,7 +52,7 @@ class DefaultController extends Controller
      */
     public function previewAction()
     {
-        return $this->render('AldafluxDocImgBundle:Default:expample.html.twig');
+        return $this->render('AldafluxDocImgBundle:Default:example.html.twig');
     }
     
     
