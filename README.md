@@ -45,3 +45,14 @@ you can write the view in a file (".doc") or send it in response
 
 ~~~~
 
+If you want test fonctionality , add this to routing.yml: 
+
+~~~~
+aldaflux_doc_img:
+    resource: "@AldafluxDocImgBundle/Controller"
+    type:     annotation
+~~~~
+and go to http://yourserver/aldaflux/
+
+
+
