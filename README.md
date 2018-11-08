@@ -5,11 +5,19 @@ Insert into AppKernel.php
  new Aldaflux\DocImgBundle\AldafluxDocImgBundle(),
 ~~~~
 
-Insert into config.yml
+Insert into config.yml...
 ~~~~
   aldaflux_doc_img:
     web_dir: "%kernel.root_dir%/../web"
 ~~~~
+
+and verify this : 
+~~~~
+framework:
+    templating:
+        engines: ['twig']
+~~~~
+
 
 in your template : 
 ~~~~
