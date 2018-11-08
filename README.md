@@ -1,9 +1,14 @@
 # doc-img-bundle
 
+Insert into AppKernel.php
+~~~~
+ new Aldaflux\DocImgBundle\AldafluxDocImgBundle(),
+~~~~
+
 Insert into config.yml
 ~~~~
   aldaflux_doc_img:
-  web_dir: "%kernel.root_dir%/../web"
+    web_dir: "%kernel.root_dir%/../web"
 ~~~~
 
 in your template : 
